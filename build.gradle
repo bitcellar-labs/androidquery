@@ -39,4 +39,21 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
+
+    dependencies {
+        compile fileTree(dir: 'auth-lib', include: '*.jar')
+    }
+}
+
+apply plugin: 'maven'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'file:repository')
+            pom.version = '0.25.10-SNAPSHOT'
+            pom.groupId = 'com.googlecode.android-query'
+            pom.artifactId = 'android-query'
+        }
+    }
 }
