@@ -53,7 +53,7 @@ uploadArchives {
             repository(url: 'file:repository')
             pom.version = '0.26.8'
             pom.groupId = 'com.androidquery'
-            pom.artifactId = 'androidquery'
+            pom.artifactId = 'android-query'
         }
     }
 }
