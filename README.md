@@ -2,10 +2,10 @@
 ```
 buildscript {
     repositories {
-	    maven { url 'http://bitcellar-labs.github.io/androidquery/' }
+	    maven { url 'http://bitcellar-labs.github.io/androidquery' }
 	}
 	dependencies {
-	    classpath 'com.googlecode.android-query:android-query:0.25.10+'
+	    classpath 'com.androidquery:android-query:0.26.8@aar'
 	}
 }
 ```
