@@ -5,7 +5,7 @@ buildscript {
 	    maven { url 'http://bitcellar-labs.github.io/androidquery' }
 	}
 	dependencies {
-	    classpath 'com.androidquery:android-query:0.26.8@aar'
+	    compile 'com.androidquery:android-query:0.26.8@aar'
 	}
 }
 ```
